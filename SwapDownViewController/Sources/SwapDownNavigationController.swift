@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class SwapDownNavigationController: UINavigationController {
+open class SwapDownNavigationController: UINavigationController {
 
     public var interactor: Interactor? = nil
     

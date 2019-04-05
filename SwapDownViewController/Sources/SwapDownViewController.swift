@@ -8,12 +8,12 @@
 
 import UIKit
 
-public class SwapDownViewController: UIViewController {
+open class SwapDownViewController: UIViewController {
     
     public var interactor: Interactor? = nil
     public var panGesture: UIPanGestureRecognizer!
 
-    public override func viewDidLoad() {
+    open override func viewDidLoad() {
         super.viewDidLoad()
 
         //Swap to close

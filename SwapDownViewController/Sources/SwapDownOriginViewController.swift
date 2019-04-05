@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class SwapDownOriginViewController: UIViewController, UINavigationControllerDelegate, UIViewControllerTransitioningDelegate {
+open class SwapDownOriginViewController: UIViewController, UINavigationControllerDelegate, UIViewControllerTransitioningDelegate {
     
     public let interactor: Interactor = Interactor()
     

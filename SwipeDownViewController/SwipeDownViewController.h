@@ -22,12 +22,12 @@
 
 #import <UIKit/UIKit.h>
 
-//! Project version number for SwapDownViewController.
-FOUNDATION_EXPORT double SwapDownViewControllerVersionNumber;
+//! Project version number for SwipeDownViewController.
+FOUNDATION_EXPORT double SwipeDownViewControllerVersionNumber;
 
-//! Project version string for SwapDownViewController.
-FOUNDATION_EXPORT const unsigned char SwapDownViewControllerVersionString[];
+//! Project version string for SwipeDownViewController.
+FOUNDATION_EXPORT const unsigned char SwipeDownViewControllerVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <SwapDownViewController/PublicHeader.h>
+// In this header, you should import all the public headers of your framework using statements like #import <SwipeDownViewController/PublicHeader.h>
 
 

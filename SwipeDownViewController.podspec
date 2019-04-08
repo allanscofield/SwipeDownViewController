@@ -12,6 +12,5 @@ Pod::Spec.new do |s|
     s.source = { :git => "https://github.com/allanscofield/SwapDownViewController.git", :tag => "#{s.version}" }
     s.framework = "UIKit"
     s.source_files = "SwipeDownViewController/Sources/*.{swift}"
-    s.swift_version = "4.2"
 
 end

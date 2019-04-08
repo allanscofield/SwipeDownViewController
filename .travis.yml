@@ -3,4 +3,4 @@ osx_image: xcode10.2
 xcode_sdk: iphonesimulator12.0
 script:
 - set -o pipefail
-- travis_retry xcodebuild -workspace SwipeDownViewController.xcworkspace -scheme "SwipeDownViewController" -destination "platform=iOS Simulator,name=iPhone 6" build-for-testing test | xcpretty
+- travis_retry xcodebuild -workspace SwipeDownViewController.xcodeproj -scheme "SwipeDownViewController" -destination "platform=iOS Simulator,name=iPhone 6" build-for-testing test | xcpretty

@@ -36,7 +36,7 @@ open class SwipeDownViewController: UIViewController {
         self.view.addGestureRecognizer(panGesture)
     }
     
-    public func addSwapDownToClose(to scrollView: UIScrollView) {
+    public func addSwipeDownToClose(to scrollView: UIScrollView) {
         scrollView.addGestureRecognizer(panGesture)
     }
     

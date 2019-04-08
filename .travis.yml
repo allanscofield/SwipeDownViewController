@@ -1,4 +1,6 @@
 language: swift
-xcode_project: SwipeDownViewController.xcodeproj
-xcode_scheme: SwipeDownViewController
-xcode_destination: platform=iOS Simulator,OS=12.0,name=iPhone 7
+osx_image: xcode10.2
+xcode_sdk: iphonesimulator12.0
+script:
+- set -o pipefail
+- travis_retry xcodebuild -workspace SwipeDownViewController.xcworkspace -scheme "SwipeDownViewController" -destination "platform=iOS Simulator,name=iPhone 6" build-for-testing test | xcpretty

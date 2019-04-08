@@ -1,0 +1,4 @@
+language: swift
+xcode_project: SwipeDownViewController.xcodeproj
+xcode_scheme: SwipeDownViewController
+xcode_destination: platform=iOS Simulator,OS=12.0,name=iPhone 7

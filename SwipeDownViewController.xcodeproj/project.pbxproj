@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9D50E09A2257D4910016AA73 /* SwapDownViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D50E0982257D4910016AA73 /* SwapDownViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D50E09A2257D4910016AA73 /* SwipeDownViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D50E0982257D4910016AA73 /* SwipeDownViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D50E0A62257D5840016AA73 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D50E0A12257D5840016AA73 /* Interactor.swift */; };
-		9D50E0A72257D5840016AA73 /* SwapDownNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D50E0A22257D5840016AA73 /* SwapDownNavigationController.swift */; };
+		9D50E0A72257D5840016AA73 /* SwipeDownNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D50E0A22257D5840016AA73 /* SwipeDownNavigationController.swift */; };
 		9D50E0A82257D5840016AA73 /* DismissModalAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D50E0A32257D5840016AA73 /* DismissModalAnimator.swift */; };
-		9D50E0A92257D5840016AA73 /* SwapDownOriginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D50E0A42257D5840016AA73 /* SwapDownOriginViewController.swift */; };
-		9D50E0AA2257D5840016AA73 /* SwapDownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D50E0A52257D5840016AA73 /* SwapDownViewController.swift */; };
+		9D50E0A92257D5840016AA73 /* SwipeDownOriginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D50E0A42257D5840016AA73 /* SwipeDownOriginViewController.swift */; };
+		9D50E0AA2257D5840016AA73 /* SwipeDownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D50E0A52257D5840016AA73 /* SwipeDownViewController.swift */; };
 		9D50E0AC2257D58B0016AA73 /* UIPanGestureRecognizerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D50E0AB2257D58B0016AA73 /* UIPanGestureRecognizerExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9D50E0952257D4900016AA73 /* SwapDownViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwapDownViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D50E0982257D4910016AA73 /* SwapDownViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwapDownViewController.h; sourceTree = "<group>"; };
+		9D50E0952257D4900016AA73 /* SwipeDownViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwipeDownViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D50E0982257D4910016AA73 /* SwipeDownViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeDownViewController.h; sourceTree = "<group>"; };
 		9D50E0992257D4910016AA73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D50E0A12257D5840016AA73 /* Interactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
-		9D50E0A22257D5840016AA73 /* SwapDownNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwapDownNavigationController.swift; sourceTree = "<group>"; };
+		9D50E0A22257D5840016AA73 /* SwipeDownNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeDownNavigationController.swift; sourceTree = "<group>"; };
 		9D50E0A32257D5840016AA73 /* DismissModalAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissModalAnimator.swift; sourceTree = "<group>"; };
-		9D50E0A42257D5840016AA73 /* SwapDownOriginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwapDownOriginViewController.swift; sourceTree = "<group>"; };
-		9D50E0A52257D5840016AA73 /* SwapDownViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwapDownViewController.swift; sourceTree = "<group>"; };
+		9D50E0A42257D5840016AA73 /* SwipeDownOriginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeDownOriginViewController.swift; sourceTree = "<group>"; };
+		9D50E0A52257D5840016AA73 /* SwipeDownViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeDownViewController.swift; sourceTree = "<group>"; };
 		9D50E0AB2257D58B0016AA73 /* UIPanGestureRecognizerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIPanGestureRecognizerExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -42,7 +42,7 @@
 		9D50E08B2257D4900016AA73 = {
 			isa = PBXGroup;
 			children = (
-				9D50E0972257D4900016AA73 /* SwapDownViewController */,
+				9D50E0972257D4900016AA73 /* SwipeDownViewController */,
 				9D50E0962257D4900016AA73 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,19 +50,19 @@
 		9D50E0962257D4900016AA73 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9D50E0952257D4900016AA73 /* SwapDownViewController.framework */,
+				9D50E0952257D4900016AA73 /* SwipeDownViewController.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9D50E0972257D4900016AA73 /* SwapDownViewController */ = {
+		9D50E0972257D4900016AA73 /* SwipeDownViewController */ = {
 			isa = PBXGroup;
 			children = (
 				9D50E0A02257D5670016AA73 /* Sources */,
-				9D50E0982257D4910016AA73 /* SwapDownViewController.h */,
+				9D50E0982257D4910016AA73 /* SwipeDownViewController.h */,
 				9D50E0992257D4910016AA73 /* Info.plist */,
 			);
-			path = SwapDownViewController;
+			path = SwipeDownViewController;
 			sourceTree = "<group>";
 		};
 		9D50E0A02257D5670016AA73 /* Sources */ = {
@@ -70,9 +70,9 @@
 			children = (
 				9D50E0A32257D5840016AA73 /* DismissModalAnimator.swift */,
 				9D50E0A12257D5840016AA73 /* Interactor.swift */,
-				9D50E0A22257D5840016AA73 /* SwapDownNavigationController.swift */,
-				9D50E0A42257D5840016AA73 /* SwapDownOriginViewController.swift */,
-				9D50E0A52257D5840016AA73 /* SwapDownViewController.swift */,
+				9D50E0A22257D5840016AA73 /* SwipeDownNavigationController.swift */,
+				9D50E0A42257D5840016AA73 /* SwipeDownOriginViewController.swift */,
+				9D50E0A52257D5840016AA73 /* SwipeDownViewController.swift */,
 				9D50E0AB2257D58B0016AA73 /* UIPanGestureRecognizerExtension.swift */,
 			);
 			path = Sources;
@@ -85,16 +85,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D50E09A2257D4910016AA73 /* SwapDownViewController.h in Headers */,
+				9D50E09A2257D4910016AA73 /* SwipeDownViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		9D50E0942257D4900016AA73 /* SwapDownViewController */ = {
+		9D50E0942257D4900016AA73 /* SwipeDownViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9D50E09D2257D4910016AA73 /* Build configuration list for PBXNativeTarget "SwapDownViewController" */;
+			buildConfigurationList = 9D50E09D2257D4910016AA73 /* Build configuration list for PBXNativeTarget "SwipeDownViewController" */;
 			buildPhases = (
 				9D50E0902257D4900016AA73 /* Headers */,
 				9D50E0912257D4900016AA73 /* Sources */,
@@ -105,9 +105,9 @@
 			);
 			dependencies = (
 			);
-			name = SwapDownViewController;
+			name = SwipeDownViewController;
 			productName = SwapDownViewController;
-			productReference = 9D50E0952257D4900016AA73 /* SwapDownViewController.framework */;
+			productReference = 9D50E0952257D4900016AA73 /* SwipeDownViewController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -125,7 +125,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9D50E08F2257D4900016AA73 /* Build configuration list for PBXProject "SwapDownViewController" */;
+			buildConfigurationList = 9D50E08F2257D4900016AA73 /* Build configuration list for PBXProject "SwipeDownViewController" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -137,7 +137,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9D50E0942257D4900016AA73 /* SwapDownViewController */,
+				9D50E0942257D4900016AA73 /* SwipeDownViewController */,
 			);
 		};
 /* End PBXProject section */
@@ -157,11 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D50E0AA2257D5840016AA73 /* SwapDownViewController.swift in Sources */,
-				9D50E0A72257D5840016AA73 /* SwapDownNavigationController.swift in Sources */,
+				9D50E0AA2257D5840016AA73 /* SwipeDownViewController.swift in Sources */,
+				9D50E0A72257D5840016AA73 /* SwipeDownNavigationController.swift in Sources */,
 				9D50E0A62257D5840016AA73 /* Interactor.swift in Sources */,
 				9D50E0A82257D5840016AA73 /* DismissModalAnimator.swift in Sources */,
-				9D50E0A92257D5840016AA73 /* SwapDownOriginViewController.swift in Sources */,
+				9D50E0A92257D5840016AA73 /* SwipeDownOriginViewController.swift in Sources */,
 				9D50E0AC2257D58B0016AA73 /* UIPanGestureRecognizerExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,7 +302,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SwapDownViewController/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SwipeDownViewController/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,7 +310,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.scofield.SwapDownViewController;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.scofield.SwipeDownViewController;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -330,7 +330,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SwapDownViewController/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SwipeDownViewController/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -338,7 +338,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.scofield.SwapDownViewController;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.scofield.SwipeDownViewController;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -349,7 +349,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9D50E08F2257D4900016AA73 /* Build configuration list for PBXProject "SwapDownViewController" */ = {
+		9D50E08F2257D4900016AA73 /* Build configuration list for PBXProject "SwipeDownViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9D50E09B2257D4910016AA73 /* Debug */,
@@ -358,7 +358,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9D50E09D2257D4910016AA73 /* Build configuration list for PBXNativeTarget "SwapDownViewController" */ = {
+		9D50E09D2257D4910016AA73 /* Build configuration list for PBXNativeTarget "SwipeDownViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9D50E09E2257D4910016AA73 /* Debug */,

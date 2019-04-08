@@ -22,7 +22,7 @@
 
 import UIKit
 
-open class SwapDownViewController: UIViewController {
+open class SwipeDownViewController: UIViewController {
     
     public var interactor: Interactor? = nil
     public var panGesture: UIPanGestureRecognizer!
@@ -36,8 +36,8 @@ open class SwapDownViewController: UIViewController {
         self.view.addGestureRecognizer(panGesture)
     }
     
-    public func addSwapDownToClose(to tableView: UITableView) {
-        tableView.addGestureRecognizer(panGesture)
+    public func addSwapDownToClose(to scrollView: UIScrollView) {
+        scrollView.addGestureRecognizer(panGesture)
     }
     
     @objc public func swapToClose(_ sender: UIPanGestureRecognizer){
@@ -49,7 +49,7 @@ open class SwapDownViewController: UIViewController {
         let progress = CGFloat(downwardMovementPercent)
         
         var currentInteractor: Interactor!
-        if let nav = self.navigationController as? SwapDownNavigationController, let interactorNav = nav.interactor {
+        if let nav = self.navigationController as? SwipeDownNavigationController, let interactorNav = nav.interactor {
             currentInteractor = interactorNav
         }
         else if let localInteractor = self.interactor {
@@ -86,7 +86,7 @@ open class SwapDownViewController: UIViewController {
 }
 
 //MARK: - Gestures
-extension SwapDownViewController: UIGestureRecognizerDelegate{
+extension SwipeDownViewController: UIGestureRecognizerDelegate{
     
     public func gestureRecognizerShouldBegin(_ gestureRecognizer: UIGestureRecognizer) -> Bool {
         if gestureRecognizer == panGesture{

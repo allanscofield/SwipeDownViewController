@@ -22,16 +22,14 @@
 
 import UIKit
 
-open class SwapDownOriginViewController: UIViewController, UINavigationControllerDelegate, UIViewControllerTransitioningDelegate {
+open class SwipeDownNavigationController: UINavigationController {
+
+    public var interactor: Interactor? = nil
     
-    public let interactor: Interactor = Interactor()
-    
-    public func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-        return ((dismissed is SwapDownNavigationController) || (dismissed is SwapDownViewController)) ? DismissModalAnimator() : nil
+    public convenience init(with rootViewController: SwipeDownViewController, origin: SwipeDownOriginViewController) {
+        self.init(rootViewController: rootViewController)
+        self.interactor = origin.interactor
+        self.delegate = origin
+        self.transitioningDelegate = origin
     }
-    
-    public func interactionControllerForDismissal(using animator: UIViewControllerAnimatedTransitioning) -> UIViewControllerInteractiveTransitioning? {
-        return interactor.hasStarted ? interactor : nil
-    }
-    
 }

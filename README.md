@@ -33,7 +33,7 @@ import PackageDescription
 let package = Package(
     name: "YOUR_PROJECT_NAME",
     dependencies: [
-        .package(url: "https://github.com/allanscofield/SwipeDownViewController.git", from: "0.1.2"),
+        .package(url: "https://github.com/allanscofield/SwipeDownViewController.git", from: "0.1.3"),
     ]
 )
 ```
